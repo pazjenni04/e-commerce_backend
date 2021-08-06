@@ -6,11 +6,12 @@
 2. [Usage](#usage)
 3. [Retrieving_Data](#retrieving-data)
 4. [Creating_new_items](#creating-new-items)
-5. [Deleting_items](#deleting-items)
-6. [Technologies](#technologies)
-7. [Questions](#questions)
-8. [Link](#links)
-9. [License](#license)
+5. [Update_an_item](#update-an-item)
+6. [Deleting_items](#deleting-items)
+7. [Technologies](#technologies)
+8. [Questions](#questions)
+9. [Link](#links)
+10. [License](#license)
 
 ## **Description**
 
@@ -70,6 +71,10 @@ In order for the user to create a new item within the system, whether it be a ne
 
 Once the user has posted, the item should then be available in the database.
 
+## Update an item
+
+To update an item within the database, the user needs to insert the specified id of the item they are needing to update with the respective pathway.
+
 ## Deleting items
 
 To delete an item within the database, the user can insert DELETE in insomnia and delete whichever item based on the item's id.
@@ -99,6 +104,10 @@ _Questions? Feel free to contact me._
 # Links
 
 To see a demonstration of this application, feel free to watch the following link.
+
+https://youtu.be/Ql6uk7Fqr8c
+
+Github repo - https://github.com/pazjenni04/e-commerce_backend.git
 
 # License
 
