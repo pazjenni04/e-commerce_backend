@@ -58,7 +58,7 @@ To retrieve a specific item within the database, the user can enter the item's s
 
 http://localhost:3001/api/tags/1 - example
 
-![The following image is an example of retrieving data for a particular item by using a specified id in the tag path](images\tag-item_img.PNG)
+![The following image is an example of retrieving data for a particular item by using a specified id in the tag path](https://raw.githubusercontent.com/pazjenni04/e-commerce_backend/main/images/tag-item_img.PNG)
 
 This can be also applied to retrieve category and product information through their specified paths.
 
