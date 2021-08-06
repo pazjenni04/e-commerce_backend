@@ -26,12 +26,9 @@ router.get("/:id", async (req, res) => {
   const oneProduct = await Product.findOne({
     include: [
       {
-        model: Category,
-        Tag,
+        model: Tag,
         where: { id: req.params.id },
-        through: {
-          attributes: ["category_id.id", "tag_id.id"],
-        },
+        through: ProductTag,
       },
     ],
   });
