@@ -44,15 +44,15 @@ To retreive data from the database, the user will need to insert http://localhos
 
 http://localhost:3001/api/categories - example
 
-![The following image is an example of retrieving data from categories](images\get-categories_img.PNG)
+![The following image is an example of retrieving data from categories](https://raw.githubusercontent.com/pazjenni04/e-commerce_backend/main/images/get-categories_img.PNG)
 
 http://localhost:3001/api/products - example
 
-![The following image is an example of retrieving data from products](images\get-products_img.PNG)
+![The following image is an example of retrieving data from products](https://raw.githubusercontent.com/pazjenni04/e-commerce_backend/main/images/get-products_img.PNG)
 
 http://localhost:3001/api/tags - example
 
-![The following image is an example of retrieving data from tags](images\get-tags_img.PNG)
+![The following image is an example of retrieving data from tags](https://raw.githubusercontent.com/pazjenni04/e-commerce_backend/main/images/get-tags_img.PNG)
 
 To retrieve a specific item within the database, the user can enter the item's specified id at the end of its http path to retrieve that particular item's information.
 
@@ -66,7 +66,7 @@ This can be also applied to retrieve category and product information through th
 
 In order for the user to create a new item within the system, whether it be a new category or product, the user will need to create a POST within Insonmia and enter the new category information or product information (Category info would need to include the new category_name and Product will need to include product_name, price, stock, category_id) - all info needs to be inputted into Insomnia in JSON.
 
-![The following is an example of a new category being created within the database](images\post-example_img.PNG)
+![The following is an example of a new category being created within the database](https://raw.githubusercontent.com/pazjenni04/e-commerce_backend/main/images/post-example_img.PNG)
 
 Once the user has posted, the item should then be available in the database.
 
@@ -76,7 +76,7 @@ To delete an item within the database, the user can insert DELETE in insomnia an
 
 Example of pathway to delete the following item - http://localhost:3001/api/categories/6
 
-![The following is an example of deleting a category based on the id](images\delete-example_img.PNG)
+![The following is an example of deleting a category based on the id](https://raw.githubusercontent.com/pazjenni04/e-commerce_backend/main/images/delete-example_img.PNG)
 
 The user can delete a category, product or item within the database, but would have to use the respective path and insert the id that corresponds to the option that's needing to be removed to be successful. This will remove the item, category, or product from the system once completed.
 
